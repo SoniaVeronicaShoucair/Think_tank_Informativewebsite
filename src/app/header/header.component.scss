@@ -1,0 +1,42 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+  
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+  
+        li {
+          display: inline-block;
+          margin-left: 1rem;
+  
+          a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.2s;
+  
+            &:hover {
+              color: #f8c600;
+            }
+  
+            &.active {
+              color: #f8c600;
+            }
+          }
+        }
+      }
+    }
+  }
+  
